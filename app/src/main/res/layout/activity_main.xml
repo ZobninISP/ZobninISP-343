@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/RadoGroupList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/RadioLogcat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logcat"/>
+
+        <RadioButton
+            android:id="@+id/RadioUI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UI"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/ViewArea"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/SimpleArrayPrint"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Simple Array Print"/>
+
+    <Button
+        android:id="@+id/PrintObject"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="PrintObject"/>
+
+    <Button
+        android:id="@+id/PrintObjectUsingMethod"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Print Object Using Method"/>
+
+    <Button
+        android:id="@+id/PrintObjectWithConstructor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Print Object With Constructor"/>
+
+    <Button
+        android:id="@+id/InheritanceExample"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Inheritance Example"/>
+
+    <Button
+        android:id="@+id/ProductList"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Product List"/>
+
+    <Button
+        android:id="@+id/AddProduct"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add Product"/>
+
+    <Button
+        android:id="@+id/Adapter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Adapter"/>
+</LinearLayout>

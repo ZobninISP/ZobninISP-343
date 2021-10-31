@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editProductName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Name of product" />
+
+    <EditText
+        android:id="@+id/editProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="numberDecimal"
+        android:hint="Price" />
+
+    <CheckBox
+        android:id="@+id/checkBoxIsBook"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Is book"/>
+
+    <EditText
+        android:id="@+id/editBookPage"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="number"
+        android:hint="Page count"
+        android:visibility="gone" />
+
+</LinearLayout>
